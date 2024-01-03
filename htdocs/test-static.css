@@ -1,0 +1,20 @@
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: sans-serif
+}
+p { font-family: sans-serif }
+h1 { color: darkgreen }
+h2 { color: green;
+     font-size: small }
+
+fieldset {max-width: 31em;}
+span.hot { color: red }
+
+
+
+.post {background: silver;
+                   border-radius: 10px;
+                   padding: 7px;
+                   max-width: 31em;
+                   margin:5px;}
