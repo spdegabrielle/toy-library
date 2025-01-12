@@ -4,9 +4,9 @@
 }
 @; the empty database looks different
 @; from a non-empty db
-@if[(empty? products)
+@if[(empty? users)
     @include-template["empty.html"]
     @include-template["non-empty.html"]
 ]
-@; here comes the form for entering new products:
-@(include-template "form.html")
+@; here comes the form for entering new users
+@(include-template "add-user.html")
